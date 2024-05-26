@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
 
   // add to cart logic
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:4000"
+  const url = "https://tadka-tale-backend.onrender.com"
   const [token, setToken] = useState("")
   const [food_list, setFoodList] = useState([])
 
